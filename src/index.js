@@ -21,7 +21,7 @@ const permissionStrings = require('./strings/permissions.json')
 let commands = []
 let emojis = new Map()
 
-const prefix = process.env.PREFIX || ','
+const prefix = process.env.PREFIX || 'a!'
 
 const Discord = require('discord.js')
 const client = new Discord.Client({
