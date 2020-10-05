@@ -24,7 +24,7 @@ module.exports = class Commands extends Command {
             `**${client.guilds.cache.size.toLocaleString()} servers**`,
             `Shard ${message.guild.shardID}`
           ].join(' | '),
-        ])
+       )
     )
   }
 }
